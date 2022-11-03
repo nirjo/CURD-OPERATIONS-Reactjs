@@ -1,23 +1,21 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Login from "./Login";
-import Register from "./Register";
-import Forgot from "./Forgot";
+import { Route, Routes } from "react-router-dom";
+import Biodata from "./Biodata";
+import LandingPage from "./LandingPage";
+
+import View from './Biodata/View'
 import {
   BASE_ROUTE,
-  REGISTER_ROUTE,
-  FORGOT_ROUTE,
+  LANDING_ROUTE,
 } from "./_main/routeConstants";
 
 function App() {
   return (
-    <Router>
       <Routes>
-        <Route path={BASE_ROUTE} element={<Login />} />
-        <Route path={REGISTER_ROUTE} element={<Register />} />
-        <Route path={FORGOT_ROUTE} element={<Forgot />} />
+        <Route path={BASE_ROUTE} element={<Biodata />} />
+        <Route path={LANDING_ROUTE} element={<LandingPage />} />
+        <Route path='/view/:id' element={<View />}  />
       </Routes>
-    </Router>
   );
 }
 

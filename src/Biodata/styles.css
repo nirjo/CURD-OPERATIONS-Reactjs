@@ -1,0 +1,49 @@
+.Card{
+    background-color: rgb(183, 212, 235);
+}
+.main-Container{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-Container{
+   
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-Container{
+  
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formik-Container{
+    display: flex;
+}
+.margin{
+    margin: 1em;
+}
+.field-Container{
+    margin: 1em !important; 
+}
+
+.input-container{
+margin: 1em !important;
+width: 44%;
+}
+.input-container_one{
+    margin: 1em !important;
+    width: 94%;
+}
+.input-container_Two{
+    margin: 1em !important;
+    width: 26%;
+}
+
+#test {
+    content:"*";
+    color:red;
+  }

@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from "../Assets/Images/Logo/Logo.png"
 
 function Footer(props) {
-    
+
     return (
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -10,21 +10,21 @@ function Footer(props) {
                 <a class="navbar-brand" href="#">
                     <img src={Logo} alt="" />
                 </a>
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 footerTrademarksection" >
+                <div class="navbar-nav mr-auto mt-2 mt-lg-0 footerTrademarksection" >
                     
-                        <li class="nav-item terms" >
+                        <span class="nav-item terms" >
                             <a class="nav-link" href="#"> Terms & Condition<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item policy">
+                        </span>
+                        <span class="nav-item policy">
                             <a class="nav-link" href="#">Privacy Policy</a>
-                        </li>
+                        </span>
                     
-                    <li class="nav-item landmark">
+                    <span class="nav-item landmark">
                         <a class="nav-link" href="#">
                             ® 2019 Company name. All rights reserved
                         </a>
-                    </li>
-                </ul>
+                    </span>
+                </div>
             </div>
 
 

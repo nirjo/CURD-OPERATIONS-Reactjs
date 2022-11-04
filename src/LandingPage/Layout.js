@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import banner from "../Assets/Images/Illustration/Illustration.png";
+import section from "../Assets/Images/Illustration/Illustration.png";
 import Mask1 from "../Assets/Images/Mask Group 1/Mask Group 1.png";
 import Mask2 from "../Assets/Images/Mask Group 1 (1)/Mask Group 1.png";
 import Mask3 from "../Assets/Images/Mask Group 1.png";
@@ -11,9 +11,9 @@ import Jack from "../Assets/Images/Jack.png";
 import "./styles.css";
 function Layout(props) {
     return (
-        <div className="banner">
-            <div className="bannerDiv">
-                <div className="bannertext">
+        <div className="section">
+            <div className="sectionDiv">
+                <div className="sectiontext">
                     <div>
                         We take care <br />
                         Marketing
@@ -24,9 +24,11 @@ function Layout(props) {
                         <p>Pick a Plan</p>
                     </button>
                 </div>
-                <div className="bannerimage">
-                    <img src={banner} alt="banner" />
+                <div className="sectionimage">
+                    <img src={section} alt="section" />
+                    
                 </div>
+                
             </div>
             {/* Blog Section */}
             <div className="blogSection">
@@ -50,8 +52,8 @@ function Layout(props) {
                 <h2 className="imagetext">Explore Marketing Tips</h2>
                 <div className="imagesection">
                     <div>
-                        <img src={Mask1} alt="banner" />
-                        <div className="bannerJohn">
+                        <img src={Mask1} alt="section" />
+                        <div className="sectionJohn">
                             <div>
                                 <img src={John} alt="john" />
                             </div>
@@ -64,8 +66,8 @@ function Layout(props) {
                         </div>
                     </div>
                     <div>
-                        <img src={Mask2} alt="banner" />
-                        <div className="bannerJohn">
+                        <img src={Mask2} alt="section" />
+                        <div className="sectionJohn">
                             <div>
                                 <img src={Jane} alt="john" />
                             </div>
@@ -78,8 +80,8 @@ function Layout(props) {
                         </div>
                     </div>
                     <div>
-                        <img src={Mask3} alt="banner" />
-                        <div className="bannerJohn">
+                        <img src={Mask3} alt="section" />
+                        <div className="sectionJohn">
                             <div>
                                 <img src={Jack} alt="john" />
                             </div>

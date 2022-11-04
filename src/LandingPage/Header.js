@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from "react";
-import Logo from "../Assets/Images/Logo/Logo.png";
-import "./styles.css";
+import React from 'react'
+import Logo from '../Assets/Images/Logo/Logo.png'
+import './styles.css'
 
 function Header(props) {
   return (
@@ -25,22 +25,19 @@ function Header(props) {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item ">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav flex-grow flex-wrap pt-2 py-md-0 text-center">
+            <li class="nav-item col-6 col-md-auto ">
               <a class="nav-link" href="#">
                 Why us?<span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item  col-6 col-md-auto ">
               <a class="nav-link" href="#">
                 Marketing Platform
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item  col-6 col-md-auto ">
               <a class="nav-link" href="#">
                 Pricing
               </a>
@@ -57,7 +54,7 @@ function Header(props) {
         </div>
       </div>
     </nav>
-  );
+  )
 }
 
-export default Header;
+export default Header

@@ -25,7 +25,7 @@ function Layout(props) {
                     </button>
                 </div>
                 <div className="sectionimage">
-                    <img src={section} alt="section" />
+                    <img src={section}  class="rounded float-left"alt="Responsive image" />
                     
                 </div>
                 

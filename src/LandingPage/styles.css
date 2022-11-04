@@ -8,6 +8,7 @@
 }
 .footer {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 0 0 85px;
 }
 .section {
@@ -15,9 +16,9 @@
   height: auto;
   padding: 5px;
 }
-/* .reg{
+reg{
     border:1px solid black;
-} */
+} 
 
 .sectiontext {
   display: flex;

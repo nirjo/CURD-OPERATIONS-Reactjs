@@ -1,8 +1,8 @@
-.SearchBtn {
-  width: 175px;
-  border-radius: 0px;
-  height: 48px;
-}
+
+
+
+
+
 .reg{
     /* border: 1px solid blue; */
   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
@@ -37,9 +37,13 @@
 .bannerDiv {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 
 }
 .bannerimage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   top: 163px;
   left: 683px;
   width: 636px;
@@ -49,6 +53,9 @@
   opacity: 1;
 }
 .PickPlan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   top: 560px;
   left: 191px;
   width: 144px;
@@ -61,6 +68,9 @@
 
 .PickPlan p {
   /* top: 577px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   left: 227px;
   width: 100px;
   height: 18px;
@@ -74,6 +84,9 @@
 }
 .blog {
   /* Layout Properties */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   top: 831px;
   left: 231px;
   width: 41px;
@@ -87,6 +100,9 @@
 }
 .arrow {
   /* Layout Properties */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   top: 858px;
   left: 1132px;
   width: 43px;
@@ -110,8 +126,9 @@
 .imagesection{
   display: flex;
   flex-direction: row;
-  gap: 1.5rem;
   flex-wrap: wrap;
+  gap: 1.5rem;
+
 }
 .imagetext {
   display: flex;
@@ -217,5 +234,69 @@
     width: 180px;
 
 }
+/* .hamburger{
+  display: none;
+  @media  (max-width: 767px){
+  display:block;
+  }
+      
+  } */
+/* 
+@media only screen and (max-width: 1024px) {
+  .icon-container {
+      margin-right: 1em;
+  }
 
-  
+  .footerTrademarksection {
+      font-size: 12px;
+  }
+
+  .footerTermsPolicy{
+      font-size: 11px;
+      margin-right: 1em;
+  }
+
+  .terms,.policy{
+      font-size: 14px;
+  }
+
+  .number {
+      font-size: 42px;
+  }
+
+  .lineone {
+      font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .icon-container {
+      margin-right: 1em;
+  }
+
+  .dadd-patient {
+      font-size: 8px;
+      margin-right: 3em;
+  }
+
+  .patient {
+      font-size: 10px;
+      margin-left: 4em;
+  }
+
+  .clearfix {
+      font-size: 12px;
+  }
+
+  .lineone {
+      font-size: 12px;
+  }
+
+  .number {
+      font-size: 35px;
+  }
+
+  .dcard {
+      height: 150px;
+      width: 15em;
+  } */

@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from "../Assets/Images/Logo/Logo.png"
 
 function Footer(props) {
+    
     return (
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
